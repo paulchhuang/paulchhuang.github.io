@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a2a3e"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c8b8a2"/>
+      <stop offset="100%" style="stop-color:#a09080"/>
+    </linearGradient>
+    <clipPath id="circle">
+      <circle cx="200" cy="200" r="200"/>
+    </clipPath>
+  </defs>
+  <!-- Background -->
+  <circle cx="200" cy="200" r="200" fill="url(#bg)"/>
+  <!-- Subtle grid pattern -->
+  <g opacity="0.06" clip-path="url(#circle)">
+    <line x1="0" y1="80" x2="400" y2="80" stroke="#c8b8a2" stroke-width="0.5"/>
+    <line x1="0" y1="160" x2="400" y2="160" stroke="#c8b8a2" stroke-width="0.5"/>
+    <line x1="0" y1="240" x2="400" y2="240" stroke="#c8b8a2" stroke-width="0.5"/>
+    <line x1="0" y1="320" x2="400" y2="320" stroke="#c8b8a2" stroke-width="0.5"/>
+    <line x1="80" y1="0" x2="80" y2="400" stroke="#c8b8a2" stroke-width="0.5"/>
+    <line x1="160" y1="0" x2="160" y2="400" stroke="#c8b8a2" stroke-width="0.5"/>
+    <line x1="240" y1="0" x2="240" y2="400" stroke="#c8b8a2" stroke-width="0.5"/>
+    <line x1="320" y1="0" x2="320" y2="400" stroke="#c8b8a2" stroke-width="0.5"/>
+  </g>
+  <!-- Stylized person silhouette -->
+  <g clip-path="url(#circle)">
+    <!-- Head -->
+    <circle cx="200" cy="155" r="58" fill="url(#accent)" opacity="0.85"/>
+    <!-- Shoulders/body -->
+    <ellipse cx="200" cy="340" rx="105" ry="95" fill="url(#accent)" opacity="0.85"/>
+  </g>
+  <!-- Decorative ring -->
+  <circle cx="200" cy="200" r="195" fill="none" stroke="#c8b8a2" stroke-width="1" opacity="0.15"/>
+  <circle cx="200" cy="200" r="188" fill="none" stroke="#c8b8a2" stroke-width="0.5" opacity="0.08"/>
+</svg>

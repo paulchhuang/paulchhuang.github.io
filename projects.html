@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Chun-Hao Paul Huang</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav id="navbar" class="scrolled">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">CH</a>
+      <ul class="nav-links">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="projects.html" style="color:var(--white)">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+    </div>
+  </nav>
+
+  <section class="research section" style="padding-top: calc(var(--nav-h) + 60px);">
+    <div class="container">
+      <div class="section-label">Research</div>
+      <h2>All Projects</h2>
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="assets/projects/spacetimepilot.gif" alt="SpaceTimePilot" />
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag-sm">CVPR 2026</span>
+              <span class="tag-sm">4D Rendering</span>
+            </div>
+            <h3>SpaceTimePilot: Generative Rendering Across Space and Time</h3>
+            <p>Disentangles space and time in video diffusion for controllable generative rendering. Given a single video, freely steer camera viewpoint and temporal motion across the 4D space-time domain.</p>
+            <a href="https://zheninghuang.github.io/Space-Time-Pilot/" class="project-link" target="_blank">Project Page →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="assets/projects/firefly.jpg" alt="Firefly Video 3D Camera Control" />
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag-sm">Shipped</span>
+              <span class="tag-sm">Adobe Firefly</span>
+            </div>
+            <h3>Firefly Video: 3D Camera Control</h3>
+            <p>Led the cross-org effort to ship free-form 3D camera control in the Firefly Video Model. Adaptor-based conditioning adds only 3% runtime overhead. T2V shipped Aug 2025; I2V shipped Dec 2025.</p>
+            <a href="https://www.adobe.com/products/firefly/features/image-to-video.html" class="project-link" target="_blank">Try it live →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="assets/projects/jog3r.png" alt="JOG3R" />
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag-sm">BMVC 2025</span>
+              <span class="tag-sm">3D Video</span>
+            </div>
+            <h3>JOG3R: Towards 3D-Consistent Video Generators</h3>
+            <p>Achieving 3D consistency in video generation through geometric priors, enabling cameras to move freely through generated scenes.</p>
+            <a href="https://paulchhuang.github.io/jog3rwebsite/" class="project-link" target="_blank">Project Page →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="assets/projects/humoto.png" alt="HUMOTO" />
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag-sm">ICCV 2025</span>
+              <span class="tag-sm">Human-Object Dataset</span>
+            </div>
+            <h3>HUMOTO: 4D Mocap Human-Object Interactions</h3>
+            <p>A large-scale 4D dataset of motion-captured human-object interactions, enabling research in human motion understanding and generation.</p>
+            <a href="https://jiaxin-lu.github.io/humoto/" class="project-link" target="_blank">Project Page →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="assets/projects/pix2video_2.gif" alt="Pix2Video" />
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag-sm">ICCV 2023</span>
+              <span class="tag-sm">Video Editing</span>
+            </div>
+            <h3>Pix2Video: Video Editing using Image Diffusion</h3>
+            <p>Repurposes pretrained image diffusion models for zero-shot video editing, enabling consistent frame-to-frame style and content manipulation.</p>
+            <a href="https://duyguceylan.github.io/pix2video.github.io/" class="project-link" target="_blank">Project Page →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="assets/projects/shapy.png" alt="SHAPY" />
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag-sm">CVPR 2022</span>
+              <span class="tag-sm">Best Paper Finalist</span>
+            </div>
+            <h3>SHAPY: Accurate 3D Body Shape Regression</h3>
+            <p>Regresses 3D human pose and shape from an RGB image using metric and semantic attributes. Best paper finalist (33 / 8,000 submissions).</p>
+            <a href="https://shapy.is.tue.mpg.de/" class="project-link" target="_blank">Project Page →</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="assets/projects/rich_2.gif" alt="RICH" />
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag-sm">CVPR 2022</span>
+              <span class="tag-sm">Human-Scene</span>
+            </div>
+            <h3>RICH: Capturing Dense Human-Scene Contact</h3>
+            <p>A dataset with videos of people in natural scenarios paired with ground-truth 3D body pose/shape and 3D scene scans for dense human-scene contact labeling.</p>
+            <a href="https://rich.is.tue.mpg.de/" class="project-link" target="_blank">Project Page →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">CH</div>
+        <p class="footer-copy">&copy; 2026 Chun-Hao Paul Huang. All rights reserved.</p>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/paulchhuang/" target="_blank">LinkedIn</a>
+          <a href="https://scholar.google.com/citations?user=LphRgywAAAAJ&hl=en" target="_blank">Scholar</a>
+          <a href="https://github.com/paulchhuang" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const toggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+    navLinks.querySelectorAll('a').forEach(l => l.addEventListener('click', () => navLinks.classList.remove('open')));
+  </script>
+</body>
+</html>
