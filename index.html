@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dr. Chun-Hao Paul Huang</title>
   <link rel="stylesheet" href="style.css" />
+  <script>(function(){var t=localStorage.getItem('theme');if(t){if(t==='light')document.documentElement.setAttribute('data-theme','light');}else if(window.matchMedia&&window.matchMedia('(prefers-color-scheme: light)').matches){document.documentElement.setAttribute('data-theme','light');}})();</script>
 </head>
 <body>
 
@@ -17,7 +18,13 @@
         <li><a href="#research">Research</a></li>
         <li><a href="#publications">Publications</a></li>
       </ul>
-      <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+      <div class="nav-right">
+        <button class="theme-toggle" aria-label="Toggle theme">
+          <span class="icon-sun">&#9788;</span>
+          <span class="icon-moon">&#9790;</span>
+        </button>
+        <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+      </div>
     </div>
   </nav>
 
@@ -179,7 +186,7 @@
         </div>
         <div class="affiliations-row">
           <a href="https://research.adobe.com/" target="_blank" class="affiliation-logo"><img src="assets/logos/adobe.svg" alt="Adobe" /></a>
-          <a href="https://is.mpg.de/" target="_blank" class="affiliation-logo"><img src="assets/logos/mpi.png" alt="Max Planck Institute" /></a>
+          <a href="https://is.mpg.de/" target="_blank" class="affiliation-logo"><img src="assets/logos/mpi.png" alt="Max Planck Institute" class="logo-dark" /><img src="assets/logos/mpi_light.jpg" alt="Max Planck Institute" class="logo-light" /></a>
           <a href="https://www.microsoft.com/en-us/research/" target="_blank" class="affiliation-logo"><img src="assets/logos/microsoft.svg" alt="Microsoft" /></a>
           <a href="https://studios.disneyresearch.com/" target="_blank" class="affiliation-logo"><img src="assets/logos/disney.avif" alt="Disney Research" /></a>
           <a href="https://www.tum.de/en/" target="_blank" class="affiliation-logo"><img src="assets/logos/tum.svg" alt="TUM" /></a>
