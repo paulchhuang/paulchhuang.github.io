@@ -70,6 +70,7 @@ window.addEventListener('scroll', () => {
 
 // Random recent publications (2024–2026)
 const recentPubs = [
+  { year: '2026', venue: 'arXiv', title: 'Generative Movement of Object Trajectories in Videos', authors: 'K. Chhatre, H. Jeong, Y. Gryaditskaya, C. E. Peters, <strong>C.-H. P. Huang</strong>, P. Guerrero', url: 'https://chhatrekiran.github.io/trajectorymover/' },
   { year: '2026', venue: 'arXiv', title: 'Memory-V2V: Augmenting Video-to-Video Diffusion Models with Memory', authors: 'D. Lee, <strong>C.-H. P. Huang</strong>, X. Chen, J. Ye, D. Ceylan, H. Jeong', url: 'https://dohunlee1.github.io/MemoryV2V/' },
   { year: '2026', venue: 'arXiv', title: 'WorldCam: Interactive Autoregressive 3D Gaming Worlds with Camera Pose as a Unifying Geometric Representation', authors: 'J. Nam, Y. Hong, <strong>C.-H. P. Huang</strong>, F. Liu, J. Lee, J. Kim, S. Jin, Y. Lee, J. Jung, S. Choi, S. Kim, Y. Zhou', url: 'https://cvlab-kaist.github.io/WorldCam/' },
   { year: '2026', venue: 'CVPR 2026', title: 'LoST: Level of Semantics Tokenization for 3D Shapes', authors: 'N. Dutt, Z. Shi, P. Guerrero, <strong>C.-H. P. Huang</strong>, D. Ceylan, N. Mitra, X. Chen', url: 'https://lost3d.github.io/' },
