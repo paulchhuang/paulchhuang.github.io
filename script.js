@@ -70,7 +70,7 @@ window.addEventListener('scroll', () => {
 
 // Random recent publications (2024–2026)
 const recentPubs = [
-  { year: '2026', venue: 'arXiv', title: 'EM-Vid: Training-Free Entity-Centric Memory for Efficient and Consistent Multi-Shot Video Generation', authors: 'J. Vandersanden, M. Gadelha, <strong>C.-H. P. Huang</strong>, H. Jeong, Y. Gryaditskaya', url: 'https://arxiv.org/abs/2605.23610' },
+  { year: '2026', venue: 'arXiv', title: 'EM-Vid: Training-Free Entity-Centric Memory for Efficient and Consistent Multi-Shot Video Generation', authors: 'J. Vandersanden, M. Gadelha, <strong>C.-H. P. Huang</strong>, H. Jeong, Y. Gryaditskaya', url: 'https://arxiv.org/abs/2605.23610', thumb: 'assets/publications/em_vid.png' },
   { year: '2026', venue: 'arXiv', title: 'Generative Movement of Object Trajectories in Videos', authors: 'K. Chhatre, H. Jeong, Y. Gryaditskaya, C. E. Peters, <strong>C.-H. P. Huang</strong>, P. Guerrero', url: 'https://chhatrekiran.github.io/trajectorymover/', thumb: 'assets/publications/trajectorymover.gif' },
   { year: '2026', venue: 'ECCV 2026', title: 'Memory-V2V: Augmenting Video-to-Video Diffusion Models with Memory', authors: 'D. Lee, <strong>C.-H. P. Huang</strong>, X. Chen, J. Ye, D. Ceylan, H. Jeong', url: 'https://dohunlee1.github.io/MemoryV2V/', thumb: 'assets/publications/memory_v2v.gif' },
   { year: '2026', venue: 'arXiv', title: 'WorldCam: Interactive Autoregressive 3D Gaming Worlds with Camera Pose as a Unifying Geometric Representation', authors: 'J. Nam, Y. Hong, <strong>C.-H. P. Huang</strong>, F. Liu, J. Lee, J. Kim, S. Jin, Y. Lee, J. Jung, S. Choi, S. Kim, Y. Zhou', url: 'https://cvlab-kaist.github.io/WorldCam/', thumb: 'assets/publications/worldcam.gif' },
